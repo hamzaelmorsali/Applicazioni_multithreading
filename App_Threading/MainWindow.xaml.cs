@@ -25,5 +25,30 @@ namespace App_Threading
             InitializeComponent();
 
         }
+
+        private void Btn_Task_Click(object sender, RoutedEventArgs e)
+        {
+            //DoWork();
+            Task.Factory.StartNew(DoWork);
+
+        }
+
+        private void DoWork()
+        {
+            for (int i = 0; i <= 1000; i++)
+            {
+                for (int j = 0; j <= 1000; j++)
+                {
+
+                }
+            }
+            //AggiornaInterfaccia();
+            Dispatcher.Invoke(AggiornaInterfaccia);
+        }
+
+        private void AggiornaInterfaccia()
+        {
+            lbl_Risultato.Content = "finito";
+        }
     }
 }
