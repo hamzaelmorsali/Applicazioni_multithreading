@@ -13,7 +13,7 @@
                 <GradientStop Color="#FF32D9DC" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button x:Name="Btn_Task" Content="CLICK" HorizontalAlignment="Left" Margin="329,272,0,0" VerticalAlignment="Top" Width="170" Height="34" FontFamily="Stencil" FontSize="20" Click="Btn_Task_Click">
+        <Button x:Name="Btn_Task" Content="CLICK" HorizontalAlignment="Left" Margin="87,272,0,0" VerticalAlignment="Top" Width="170" Height="34" FontFamily="Stencil" FontSize="20" Click="Btn_Task_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FF18FC4C" Offset="0"/>
@@ -23,7 +23,9 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Label x:Name="lbl_Risultato" HorizontalAlignment="Left" Margin="329,185,0,0" VerticalAlignment="Top" Width="170" Background="White" Height="34" BorderBrush="Black" FontFamily="Stencil" FontSize="18"/>
+        <Label x:Name="lbl_Risultato" HorizontalAlignment="Left" Margin="87,186,0,0" VerticalAlignment="Top" Width="170" Background="White" Height="34" BorderBrush="Black" FontFamily="Stencil" FontSize="18"/>
+        <Button x:Name="Btn_conta" Content="CONTA" HorizontalAlignment="Left" Margin="608,272,0,0" VerticalAlignment="Top" Width="144" Height="34" Background="#FF98F399" FontFamily="Stencil" FontSize="18" Click="Btn_conta_Click"/>
+        <Label x:Name="lbl_conta" Content="" HorizontalAlignment="Left" Margin="608,186,0,0" VerticalAlignment="Top" Width="144" Height="34" Background="#FFF6ABE9" FontFamily="Stencil" FontSize="18"/>
 
     </Grid>
 </Window>
