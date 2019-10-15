@@ -23,6 +23,7 @@ namespace App_Threading
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
